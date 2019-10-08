@@ -625,6 +625,11 @@
             </activation>
             <build>
                 <plugins>
+		 <plugin>
+		    <groupId>io.xc5</groupId>
+		    <artifactId>xvsa-maven-plugin</artifactId>
+		    <version>1.39</version>
+		  </plugin>	
                     <plugin>
                         <!-- for codecov.io -->
 						<!-- config example: https://github.com/codecov/example-java -->
